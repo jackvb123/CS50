@@ -1,0 +1,12 @@
+1.  stdint.h is a header file in C that allows programmers to choose integer data types with exact sizes according to the requirement.
+2.  The point of using these datatypes is informing the program that the image pixel is using exactly 8 bits or 32 bits.
+3.  1,4,4,2
+4.  0x42 0x4D in hexadecimal, BM in ASCII, 66 77 in decimal
+5.  bfsize gives the bitmap file size whereas bisize gives the structure size, both in bytes.
+6.  It means that the bitmap is top-down having origin on upper left corner
+7.  biBitCount field in the structure
+8.  If its not able to create the output file
+9.  It specifies that we are taking only 1 pixel at a time.
+10. If bi.bitWidth is 3 i guess the padding will be 3 after doing the modulo math.
+11. Gets the next available pixel
+12. Is an integer constant, to specify the current position in the file during seeking.
