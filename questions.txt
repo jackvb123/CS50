@@ -1,0 +1,11 @@
+0.  A word that was invented to mean a lung related disease which is caused by inhaling fine ash and sand dust
+1.  returns resource usage measures for a thread.
+2.  16
+3.  Passing large structures by values may cause stack overflow so we are just sending the addresses
+4.  c = fgetc(fp) always gets the next character in the file. It advances the position in the file. This is continued until the end of the file is reached. 
+    The rest is to create words and store them and check if its in dictionary and continue for next words. First we set index to 0 and start looking for word. If 
+    c is an alphabet or an apostrophe the character is taken into the word. If there is any number we skip it. If we hit \n then the word is over so add \0 to the array 
+    and reset index =0;
+5.  fscanf with "%s" format string gets all the characters until it finds a whitespace. But in the given question some words may end in punctuation which will make the process
+    difficult. 
+6.  So that any changes to the char* pointed are prevented in the program.
